@@ -67,10 +67,11 @@ items = [{
   {
     category: "Notable Projects",
     workplace: "Bezier Curve Calculator",
-    role: "Calculate Bezier curves given n 3-dimmensional points",
+    role: "Calculate Bezier curves given a set of 3-dimmensional points",
     date: "Sep 2019 - Oct 2019",
     objectives: [
       "Using Window's Form Application for the user interface and graphics display",
+      "Designed and imporved user Interface using Window's form designer based off user feedback",
       "Given a set of n 3-dimmensional points, calculate the Bezier curve in 3-dimmensional space",
       "Used my own expression evaluator to parse a mathmatical expression, in this case the equations of a Bezier curve",
       "Created a simple lighting engine to calculate ambient and diffuse lighting using normals to a sphere",
