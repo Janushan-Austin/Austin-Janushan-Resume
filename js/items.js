@@ -15,7 +15,7 @@ items = [{
     category: "Experience",
     workplace: "Teaching — <a class='unlvASC' href='https://www.unlv.edu/asc/'>Academic Success Center</a>",
     role: "<a href='https://www.unlv.edu/'>UNLV</a> - Computer Science Tutor",
-    date: "Aug 2019 - Present",
+    date: "Aug 2018 - Present",
     objectives: [
       "Tutored twenty-four core computer science, computer engineering, statistics, and math classes.",
       "Measurably improved students' performance in class, on assignments, and during exams.",
@@ -63,7 +63,7 @@ items = [{
       'SSD MobileNet'
     ]
   },
-  {
+ /* {
     category: "Notable Projects",
     workplace: "<a href='http://MikianMusser.com'>MikianMusser.com</a>",
     role: "Personal web site - html/css/js/pug/sass ",
@@ -87,24 +87,22 @@ items = [{
       "responsive",
       'Web Development',
     ]
-  },
+  },*/
     {
     category: "Other Projects",
-    workplace: "<a href='https://www.kaggle.com/mikian/dog-poop'><span class=kaggle>Kaggle: </span> Dog Poop — Data </a>",
-    role: "Fake dog poop for object detection",
+    workplace: "<a href='https://www.kaggle.com/mikian/dog-poop'><span class=ProceduralGeneration>Procedural Generation: </span> Land Mass Generator </a>",
+    role: "Generate Land Masses based on Perlin Noise",
     date: "Spring 2020",
     objectives: [
-      "Added the dataset used for Dook Robotics to Kaggle."
+	  "Used the Unity Game Engine to procedurally generate Land"
+      "Created 3-dimmensional meshes from 2-dimmensional height maps"
+	  "Used fractal Brownian Motion to generate psuedo random terrains"
     ],
     index: [
-      'TensorFlow',
-      "Python",
-      'ML',
-      'Machine Learning',
-      'Kaggle',
-      'Open Source',
-      'Dog',
-      'MSHIT'
+      'Procedural',
+      'Generation',
+      'Unity'
+	  'Terrain'
     ]
   }
 ]
