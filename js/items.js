@@ -66,8 +66,8 @@ items = [{
 
   {
     category: "Notable Projects",
-    workplace: "",
-    role: "Bezier Curve Simulator",
+    workplace: "Bezier Curve Calculator",
+    role: "Calculate Bezier curves given n 3-dimmensional points",
     date: "Sep 2019 - Oct 2019",
     objectives: [
       "Using Window's Form Application for the user interface and graphics display",
