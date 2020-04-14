@@ -63,6 +63,30 @@ items = [{
       'SSD MobileNet'
     ]
   },
+
+  {
+    category: "Notable Projects",
+    workplace: "",
+    role: "Bezier Curve Simulator",
+    date: "Sep 2019 - Oct 2019",
+    objectives: [
+      "Using Window's Form Application for the user interface and graphics display",
+      "Given a set of n 3-dimmensional points, calculate the Bezier curve in 3-dimmensional space",
+      "Used my own expression evaluator to parse a mathmatical expression, in this case the equations of a Bezier curve",
+      "Created a simple lighting engine to calculate ambient and diffuse lighting using normals to a sphere",
+      "Calculate lighting for 3-dimmensional world points by generating a sphere around all points centered at the gravity of the Bezier curve",
+      "take 3-dimmensional world coordinates and translate them into 2-dimmensional screen space",
+      "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading"
+    ],
+    index: [
+      "Window's Form Application",
+      "Visual Studio",
+      "graphics",
+      "lighting",
+      "Bezier",
+      "Expression Evaluator"
+    ]
+  },
  /* {
     category: "Notable Projects",
     workplace: "<a href='http://MikianMusser.com'>MikianMusser.com</a>",
