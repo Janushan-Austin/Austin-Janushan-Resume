@@ -71,13 +71,13 @@ items = [{
     date: "Sep 2019 - Oct 2019",
     objectives: [
       "Using Window's Form Application for the user interface and graphics display",
-      "Designed and imporved user Interface using Window's form designer based off user feedback",
+      "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading"
+      "Calculate lighting for 3-dimmensional world points by generating a sphere around all points centered at the gravity of the Bezier curve",
       "Given a set of n 3-dimmensional points, calculate the Bezier curve in 3-dimmensional space",
+      "Designed and imporved user Interface using Window's form designer based off user feedback",
       "Used my own expression evaluator to parse a mathmatical expression, in this case the equations of a Bezier curve",
       "Created a simple lighting engine to calculate ambient and diffuse lighting using normals to a sphere",
-      "Calculate lighting for 3-dimmensional world points by generating a sphere around all points centered at the gravity of the Bezier curve",
       "take 3-dimmensional world coordinates and translate them into 2-dimmensional screen space",
-      "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading"
     ],
     index: [
       "Window's Form Application",
