@@ -101,7 +101,7 @@ items = [{
     index: [
       'Procedural',
       'Generation',
-      'Unity'
+      'Unity',
 	  'Terrain'
     ]
   }
