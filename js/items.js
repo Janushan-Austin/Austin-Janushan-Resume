@@ -94,8 +94,8 @@ items = [{
     role: "Generate Land Masses based on Perlin Noise",
     date: "Spring 2020",
     objectives: [
-	  "Used the Unity Game Engine to procedurally generate Land"
-      "Created 3-dimmensional meshes from 2-dimmensional height maps"
+	  "Used the Unity Game Engine to procedurally generate Land",
+      "Created 3-dimmensional meshes from 2-dimmensional height maps",
 	  "Used fractal Brownian Motion to generate psuedo random terrains"
     ],
     index: [
