@@ -71,7 +71,7 @@ items = [{
     workplace: "Bezier Curve Calculator",
     role: "Calculate Bezier curves given a set of 3-dimmensional points",
     date: "Sep 2019 - Oct 2019",
-    objectivesLimit: "3",
+    objectivesLimit: "5",
     objectives: [
       "Using Window's Form Application for the user interface and graphics display",
       "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading",
