@@ -67,7 +67,6 @@ function buildSearchTerms(searchTermCounts) {
     $jterm = $(term)
     $('.projectCat').append($jterm);
   }
-
 }
 
 function buildItems(filter) {
