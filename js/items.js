@@ -9,6 +9,7 @@ items = [{
     workplace: "Computer Science, BS",
     role: "<a href='https://www.unlv.edu/'>University of Nevada: Las Vegas</a>",
     date: "Jan 2016 - Present",
+    objectivesLimit: "3",
     objectives: ["Computer science senior | Expected graduation - May 2020 | GPA: 3.8"]
   },
     {
@@ -36,6 +37,7 @@ items = [{
     workplace: "<a href='https://github.com/dook-robotics'>Dook Robotics</a>",
     role: "Senior Design - Automatic Pooper Scooper",
     date: "Jul 2019 - Dec 2019",
+    objectivesLimit: "3",
     objectives: [
       "Created, labeled, and cleaned a database of over 2300 images and 6000 objects used for object detection.",
       "Used TensorFlow to train several different models based on the environment the robot is in.",
@@ -69,6 +71,7 @@ items = [{
     workplace: "Bezier Curve Calculator",
     role: "Calculate Bezier curves given a set of 3-dimmensional points",
     date: "Sep 2019 - Oct 2019",
+    objectivesLimit: "3",
     objectives: [
       "Using Window's Form Application for the user interface and graphics display",
       "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading",
@@ -93,6 +96,7 @@ items = [{
     workplace: "<a href='http://MikianMusser.com'>MikianMusser.com</a>",
     role: "Personal web site - html/css/js/pug/sass ",
     date: "Aug 2018 - Present",
+    objectivesLimit: "3",
     objectives: [
       "Iteratively designed and programmed a personal website to showcase projects and experience.",
       "Used CSS and HTML preprocessors such as SASS and PUG to increase productivity.",
@@ -118,6 +122,7 @@ items = [{
     workplace: "<a href='https://www.kaggle.com/mikian/dog-poop'><span class=ProceduralGeneration>Procedural Generation: </span> Land Mass Generator </a>",
     role: "Generate Land Masses based on Perlin Noise",
     date: "Spring 2020",
+    objectivesLimit: "3",
     objectives: [
 	  "Used the Unity Game Engine to procedurally generate Land",
       "Created 3-dimmensional meshes from 2-dimmensional height maps",

@@ -173,7 +173,7 @@ function buildItems(filter) {
     }
     // Get most relevent objective and underline search term
     for (var j = 0; j < canidates[i].objectives.length; j++) {
-      if (canidates[i].objectives[j].toLowerCase().includes(filter) && objCount < 3) {
+      if (canidates[i].objectives[j].toLowerCase().includes(filter) && objCount < canidates[i].objectivesLimit) {
         objIndexes.push(j)
         objectives += "<li class='objective'>" + betterReplace(canidates[i].objectives[j], filter) + "</li>"
         objCount++
@@ -181,7 +181,7 @@ function buildItems(filter) {
       }
     }
 
-    for (var j = 0; j < canidates[i].objectives.length && objCount < 3; j++) {
+    for (var j = 0; j < canidates[i].objectives.length && objCount < canidates[i].objectivesLimit; j++) {
       if (!objIndexes.includes(j)) {
         objIndexes.push(j)
         objectives += "<li class='objective'>" + canidates[i].objectives[j] + "</li>"
