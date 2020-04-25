@@ -68,30 +68,78 @@ items = [{
 
   {
     category: "Notable Projects",
-    workplace: "Bezier Curve Calculator",
+    workplace: "<a href = ''>Bezier Curve Calculator</a>",
     role: "Calculate Bezier curves given a set of 3-dimmensional points",
     date: "Sep 2019 - Oct 2019",
-    objectivesLimit: "5",
+    objectivesLimit: "6",
     objectives: [
-      "Using Window's Form Application for the user interface and graphics display",
-      "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading",
-      "Calculate lighting for 3-dimmensional world points by generating a sphere around all points centered at the gravity of the Bezier curve",
       "Given a set of n 3-dimmensional points, calculate the Bezier curve in 3-dimmensional space",
+      "Used Window's Form Application to design the user interface and graphics display",
+      "lighting is used to give a 3-dimmensional perspective to the 2-dimmensional screen space points with simple shading",
+      "Created a simple lighting engine to calculate ambient and diffuse lighting using normals to a sphere",
+      "Calculate lighting for 3-dimmensional world points by generating a sphere around all points centered at the gravity of the Bezier curve",
+	  "draw 3-dimmensional axis to give user perspective of the world orientation",
       "Designed and imporved user Interface using Window's form designer based off user feedback",
       "Used my own expression evaluator to parse a mathmatical expression, in this case the equations of a Bezier curve",
-      "Created a simple lighting engine to calculate ambient and diffuse lighting using normals to a sphere",
       "take 3-dimmensional world coordinates and translate them into 2-dimmensional screen space"
     ],
     index: [
       "Window's Form Application",
       "Visual Studio",
       "graphics",
-      "lighting",
+	  "C#",
       "Bezier",
+      "lighting",
       "Expression Evaluator"
     ]
   },
- /* {
+  
+  {
+    category: "Notable Projects",
+    workplace: "<a href = ''>Mesh Generator</a>",
+    role: "Calculate the triangulation of 3-dimmensional points to create a wireframe mesh",
+    date: "Oct 2019 - Dec 2019",
+    objectivesLimit: "5",
+    objectives: [
+	  "Calculate triangulation using left-right-ness of points to one another",
+	  "Used convex hull to determine starting pair of points",
+	  "calculate triangles by finding smallest third leg segment using a polar winding technique",
+      "Generate a set of random points and smooth points by averaging with nearest neighbors",
+      "Used Window's Form Application to design the user interface and graphics display"
+    ],
+    index: [
+      "Window's Form Application",
+      "Visual Studio",
+	  "C#",
+      "graphics",
+      "Triangulation",
+    ]
+  },
+  
+   {
+    category: "Notable Projects",
+    workplace: "<a href = ''>Mandlebrot Set</a>",
+    role: "Calculate and draw the Mandlebrot set",
+    date: "Sep 2019 - Oct 2019",
+    objectivesLimit: "5",
+    objectives: [
+	  "Calculated and display the Mandlebrot set",
+	  "Allow user to draw a box of any dimension on the bitmap and recalculate the Mandlebrot set within the specified rectangle",
+	  "User can switch coloring mode (iterative and flat) shading", 
+	  "iterative coloring mode shows regional stability of a point in the Mandlebrot set",
+	  "flat shading only signals that a point is stable or unstable",
+      "Used Window's Form Application to design the user interface and graphics display"
+    ],
+    index: [
+      "Window's Form Application",
+      "Visual Studio",
+	  "C#",
+      "graphics",
+      "Mandlebrot",
+	  "Julia"
+    ]
+  },
+/* {
     category: "Notable Projects",
     workplace: "<a href='http://MikianMusser.com'>MikianMusser.com</a>",
     role: "Personal web site - html/css/js/pug/sass ",
@@ -117,9 +165,34 @@ items = [{
       'Web Development',
     ]
   },*/
+   {
+    category: "Other Projects",
+    workplace: "<a href = ''>Julia Set</a>",
+    role: "Calculate and draw the Mandlebrot set",
+    date: "Sep 2019 - Oct 2019",
+    objectivesLimit: "6",
+    objectives: [
+	  "Calculated and display the Julia sets",
+	  "User can cycle between predetermined Julia sets",
+	  "Allow user to give custom complex number as intial complex number in the Julia set equation",
+	  "User can switch coloring mode (iterative and flat) shading", 
+	  "iterative coloring mode shows regional stability of a point in the Mandlebrot set",
+	  "flat shading only signals that a point is stable or unstable",
+      "Used Window's Form Application to design the user interface and graphics display"
+    ],
+    index: [
+      "Window's Form Application",
+      "Visual Studio",
+	  "C#",
+      "graphics",
+      "Mandlebrot",
+	  "Julia"
+    ]
+  }, 
+  
     {
     category: "Other Projects",
-    workplace: "<a href='https://www.kaggle.com/mikian/dog-poop'><span class=ProceduralGeneration>Procedural Generation: </span> Land Mass Generator </a>",
+    workplace: "<a href=''><span class=ProceduralGeneration>Procedural Generation: </span> Land Mass Generator </a>",
     role: "Generate Land Masses based on Perlin Noise",
     date: "Spring 2020",
     objectivesLimit: "3",
@@ -133,6 +206,27 @@ items = [{
       'Generation',
       'Unity',
 	  'Terrain'
+    ]
+  },
+  
+  {
+    category: "Other Projects",
+    workplace: "<a href>Function Grapher</a>",
+    role: "Graph a user provided function",
+    date: "Sep 2019",
+    objectivesLimit: "3",
+    objectives: [
+	  "Used Window's Form Application to design the user interface and graphics display",
+	  "Evaluate a user provided function along a given domain",
+	  "calculate ratio between domain and range to fit most of the function properly on the screen",
+	  "draw labeled tick marks on x and y axes"
+    ],
+    index: [
+       "Window's Form Application",
+      "Visual Studio",
+	  "C#",
+      "graphics",
+	  "Expression Evaluator"
     ]
   }
 ]
